@@ -1,0 +1,284 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.container{  
+    width: auto;
+    margin: 0 150px; 
+}
+header span{
+    width: 4px;
+    height: 126px;
+    display: inline-block;
+    background-color: rgba(255, 0, 0, 0.719);
+    margin-top: 22px;
+}
+header .left-side{
+    flex-basis: 50%;
+    display: flex;
+    padding-top: 130px;
+}
+header .left-side h4{
+    font-size: 65px;
+    line-height: 85px;
+    margin-left: 10px;
+}
+header .left-side .content{
+    width: 480px;
+}
+header .left-side .content :nth-child(2){
+    color: rgb(240, 163, 21);
+}
+header .left-side .content p{
+    line-height: 23px;
+    color: rgb(80, 78, 78);
+    margin-top: 10px;
+    font-size: 20px;
+}
+header .left-side .content a{
+    text-decoration: none;
+    color: #fff;
+    background-color: rgba(255, 0, 0, 0.719);
+    display: inline-block;
+    padding: 10px 22px;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+header .left-side .content a:hover{
+    background-color: rgb(240, 163, 21);
+}
+header .right-side{
+    flex-basis: 50%;
+}
+header .right-side img{
+    width: 420px;
+    margin-left: 70px;
+}
+.my-mission{
+    margin-top: 60px;
+}
+.my-mission h3{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+.my-mission span{
+    color: rgb(240, 163, 21);
+}
+.mission-box{
+    display: flex;
+    justify-content: space-between;
+}
+.mission-box .box{
+    flex-basis: 32%;
+    border-radius: 25px;
+    padding: 25px;
+}
+.mission-box .box img{
+    width: 180px;
+}
+.mission-box .box h2{
+    font-size: 25px;
+    margin:  10px 0 20px 0;
+}
+.mission-box .box p{
+    font-size: 19px;
+    color: rgb(41, 41, 41);
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+.mission-box .mission{
+    background-color:rgb(235, 245, 253);
+
+}
+.mission-box .vission{
+    background-color:rgba(252, 228, 232, 0.671);
+}
+.mission-box .goals{
+    background-color:rgb(252, 236, 209);
+}
+.develop{
+    display: flex;
+    align-items: center;
+    margin: 65px 0;
+}
+.develop .photo{
+    flex-basis: 35%;
+    position: relative;
+}
+.photo :nth-child(1){
+    width: 230px;
+    position: absolute;
+    top: 40px;
+    left: -97px;
+}
+.develop .photo .main-img{
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+    z-index: 1;
+}
+.develop .content{
+    flex-basis: 60%;
+    margin-left: 60px;
+}
+.develop .content h3{
+    font-size: 40px;
+}
+.develop .content p{
+    font-size: 20px;
+    color: rgb(48, 47, 47);
+    margin: 20px 0;
+}
+.develop .content a{
+    display: inline-block;
+    text-decoration: none;
+    background-color: rgba(255, 0, 0, 0.719);
+    padding: 10px 25px;
+    color: #fff;
+}
+.develop .content a:hover{
+    background-color: rgb(240, 163, 21)
+}
+.develop-2{
+    display: flex;
+    align-items: center;
+}
+.develop-2 .content h3{
+    font-size: 40px; 
+}
+.develop-2 .content p{
+    font-size: 20px;
+    color: rgb(48, 47, 47);
+    margin: 20px 0;
+    text-align: justify;
+}
+.develop-2 .content a{
+    display: inline-block;
+    text-decoration: none;
+    background-color: rgba(255, 0, 0, 0.719);
+    padding: 10px 25px;
+    color: #fff;
+}
+.develop-2 .content a:hover{
+    background-color: rgb(240, 163, 21);
+}
+.develop-2 .content{
+    flex-basis: 60%;
+}
+.develop-2 .photo2{
+    flex-basis: 35%;
+    position: relative;
+}
+.develop-2 .photo2 .main-img{
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+    z-index: 1;
+}
+.develop-2  .photo2 :nth-child(1){
+    position: absolute;
+    width: 190px;
+    right: -80px;
+    bottom: -60px;
+}
+.develop-2 .photo2{
+    margin-left: 60px;
+}
+.container-build{
+    margin-top: 100px;
+}
+.container-build h3{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 120px;
+}
+.container-build span{
+    color: rgb(240, 163, 21);
+}
+.build-application{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container-build .build-application .left-side{
+    flex-basis: 50%;
+    position: relative;
+}
+.container-build .build-application .left-side :nth-child(1){
+    width: 300px;
+    height: 530px;
+    margin-left: 250px;
+    position: relative;
+    z-index: 1;
+}
+.container-build .build-application .left-side :nth-child(2){
+    width: 160px;
+    position: absolute;
+    left: 210px;
+    top: -40px;
+}
+.container-build .build-application .left-side :nth-child(3){
+    position: absolute;
+    width: 90px;
+    bottom: 10px;
+    left: 240px;
+}
+.container-build .build-application .left-side :nth-child(4){
+    width: 90px;
+    position: absolute;
+    bottom: 115px;
+    right: 80px;
+}
+.container-build .build-application .right-side{
+    flex-basis: 50%;
+    margin-right: 80px;
+}
+.container-build .build-application .right-side h2{
+    font-size: 50px;
+    line-height: 65px;
+}
+.container-build .build-application .right-side span{
+    color: rgb(240, 163, 21);
+}
+.container-build .build-application .right-side p{
+    font-size: 20px;
+    color: rgb(48, 47, 47);
+    margin: 20px 0;
+}
+.container-build .build-application .right-side a{
+    text-decoration: none;
+    color: #fff;
+    background-color: rgba(255, 0, 0, 0.719);
+    display: inline-block;
+    padding: 10px 22px;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+.container-build .build-application .right-side a:hover{
+    background-color: rgb(240, 163, 21);
+}
+footer{
+    text-align: center;
+    background-color: black;
+    padding: 100px 0;
+    margin-top: 50px;
+    color: #fff;
+}
+footer h2{
+    font-size: 30px;
+    color: #fff;
+}
+footer p{
+    font-size: 18px;
+    color: rgb(163, 163, 163);
+    margin-top: 10px;
+}
+footer span{
+    color: rgb(240, 163, 21);
+}
